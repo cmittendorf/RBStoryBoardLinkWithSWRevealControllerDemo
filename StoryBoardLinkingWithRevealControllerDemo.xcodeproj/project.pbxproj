@@ -19,8 +19,6 @@
 		70A827AA184CBF3A0027B826 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A827A9184CBF3A0027B826 /* XCTest.framework */; };
 		70A827AB184CBF3A0027B826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A8278A184CBF3A0027B826 /* Foundation.framework */; };
 		70A827AC184CBF3A0027B826 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A8278E184CBF3A0027B826 /* UIKit.framework */; };
-		70A827B4184CBF3A0027B826 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70A827B2184CBF3A0027B826 /* InfoPlist.strings */; };
-		70A827B6184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A827B5184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemoTests.m */; };
 		70A827C0184CC1190027B826 /* MyContent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A827BF184CC1190027B826 /* MyContent.storyboard */; };
 		70A827C3184D1F7F0027B826 /* MyStoryboardLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A827C2184D1F7F0027B826 /* MyStoryboardLink.m */; };
 		CCCBF69B57C4441882B2CF66 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8495571FE845D2B3EE13C3 /* libPods.a */; };
@@ -54,9 +52,6 @@
 		70A827A2184CBF3A0027B826 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		70A827A8184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryBoardLinkingWithRevealControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A827A9184CBF3A0027B826 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		70A827B1184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryBoardLinkingWithRevealControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
-		70A827B3184CBF3A0027B826 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		70A827B5184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryBoardLinkingWithRevealControllerDemoTests.m; sourceTree = "<group>"; };
 		70A827BF184CC1190027B826 /* MyContent.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyContent.storyboard; sourceTree = "<group>"; };
 		70A827C1184D1F7F0027B826 /* MyStoryboardLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStoryboardLink.h; sourceTree = "<group>"; };
 		70A827C2184D1F7F0027B826 /* MyStoryboardLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStoryboardLink.m; sourceTree = "<group>"; };
@@ -92,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				70A82790184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemo */,
-				70A827AF184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemoTests */,
 				70A82789184CBF3A0027B826 /* Frameworks */,
 				70A82788184CBF3A0027B826 /* Products */,
 				C62BE6E239DF46738A902A33 /* Pods.xcconfig */,
@@ -144,24 +138,6 @@
 				70A82793184CBF3A0027B826 /* InfoPlist.strings */,
 				70A82796184CBF3A0027B826 /* main.m */,
 				70A82798184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemo-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		70A827AF184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				70A827B5184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemoTests.m */,
-				70A827B0184CBF3A0027B826 /* Supporting Files */,
-			);
-			path = StoryBoardLinkingWithRevealControllerDemoTests;
-			sourceTree = "<group>";
-		};
-		70A827B0184CBF3A0027B826 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				70A827B1184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemoTests-Info.plist */,
-				70A827B2184CBF3A0027B826 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -255,7 +231,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70A827B4184CBF3A0027B826 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70A827B6184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,14 +313,6 @@
 				70A8279D184CBF3A0027B826 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		70A827B2184CBF3A0027B826 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				70A827B3184CBF3A0027B826 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

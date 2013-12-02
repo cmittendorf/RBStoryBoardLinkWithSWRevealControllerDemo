@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E054C4C6-B7E9-447F-9235-3A4B8E709DA6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StoryBoardLinkingWithRevealControllerDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C9488617-73F2-467C-9B89-278D56D5CA0D</key>
+		<string>ssh://github.com/cmittendorf/RBStoryBoardLinkWithSWRevealControllerDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StoryBoardLinkingWithRevealControllerDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C9488617-73F2-467C-9B89-278D56D5CA0D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/cmittendorf/RBStoryBoardLinkWithSWRevealControllerDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C9488617-73F2-467C-9B89-278D56D5CA0D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C9488617-73F2-467C-9B89-278D56D5CA0D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>StoryBoardLinkingWithRevealControllerDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
