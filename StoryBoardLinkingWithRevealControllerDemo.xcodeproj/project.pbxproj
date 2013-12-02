@@ -21,6 +21,9 @@
 		70A827AC184CBF3A0027B826 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A8278E184CBF3A0027B826 /* UIKit.framework */; };
 		70A827B4184CBF3A0027B826 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70A827B2184CBF3A0027B826 /* InfoPlist.strings */; };
 		70A827B6184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A827B5184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemoTests.m */; };
+		70A827C0184CC1190027B826 /* MyContent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A827BF184CC1190027B826 /* MyContent.storyboard */; };
+		70A827C3184D1F7F0027B826 /* MyStoryboardLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A827C2184D1F7F0027B826 /* MyStoryboardLink.m */; };
+		CCCBF69B57C4441882B2CF66 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8495571FE845D2B3EE13C3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C8495571FE845D2B3EE13C3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A82787184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryBoardLinkingWithRevealControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A8278A184CBF3A0027B826 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		70A8278C184CBF3A0027B826 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,10 @@
 		70A827B1184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryBoardLinkingWithRevealControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
 		70A827B3184CBF3A0027B826 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		70A827B5184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryBoardLinkingWithRevealControllerDemoTests.m; sourceTree = "<group>"; };
+		70A827BF184CC1190027B826 /* MyContent.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyContent.storyboard; sourceTree = "<group>"; };
+		70A827C1184D1F7F0027B826 /* MyStoryboardLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStoryboardLink.h; sourceTree = "<group>"; };
+		70A827C2184D1F7F0027B826 /* MyStoryboardLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStoryboardLink.m; sourceTree = "<group>"; };
+		C62BE6E239DF46738A902A33 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,7 @@
 				70A8278D184CBF3A0027B826 /* CoreGraphics.framework in Frameworks */,
 				70A8278F184CBF3A0027B826 /* UIKit.framework in Frameworks */,
 				70A8278B184CBF3A0027B826 /* Foundation.framework in Frameworks */,
+				CCCBF69B57C4441882B2CF66 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +95,7 @@
 				70A827AF184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemoTests */,
 				70A82789184CBF3A0027B826 /* Frameworks */,
 				70A82788184CBF3A0027B826 /* Products */,
+				C62BE6E239DF46738A902A33 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +115,7 @@
 				70A8278C184CBF3A0027B826 /* CoreGraphics.framework */,
 				70A8278E184CBF3A0027B826 /* UIKit.framework */,
 				70A827A9184CBF3A0027B826 /* XCTest.framework */,
+				2C8495571FE845D2B3EE13C3 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,7 +125,10 @@
 			children = (
 				70A82799184CBF3A0027B826 /* AppDelegate.h */,
 				70A8279A184CBF3A0027B826 /* AppDelegate.m */,
+				70A827C1184D1F7F0027B826 /* MyStoryboardLink.h */,
+				70A827C2184D1F7F0027B826 /* MyStoryboardLink.m */,
 				70A8279C184CBF3A0027B826 /* Main.storyboard */,
+				70A827BF184CC1190027B826 /* MyContent.storyboard */,
 				70A8279F184CBF3A0027B826 /* ViewController.h */,
 				70A827A0184CBF3A0027B826 /* ViewController.m */,
 				70A827A2184CBF3A0027B826 /* Images.xcassets */,
@@ -159,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70A827B9184CBF3A0027B826 /* Build configuration list for PBXNativeTarget "StoryBoardLinkingWithRevealControllerDemo" */;
 			buildPhases = (
+				5E547F15230E4271B84C6026 /* Check Pods Manifest.lock */,
 				70A82783184CBF3A0027B826 /* Sources */,
 				70A82784184CBF3A0027B826 /* Frameworks */,
 				70A82785184CBF3A0027B826 /* Resources */,
+				1B3E45D008F1420580CBFC2E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70A827C0184CC1190027B826 /* MyContent.storyboard in Resources */,
 				70A827A3184CBF3A0027B826 /* Images.xcassets in Resources */,
 				70A82795184CBF3A0027B826 /* InfoPlist.strings in Resources */,
 				70A8279E184CBF3A0027B826 /* Main.storyboard in Resources */,
@@ -244,6 +261,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B3E45D008F1420580CBFC2E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E547F15230E4271B84C6026 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		70A82783184CBF3A0027B826 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -251,6 +301,7 @@
 			files = (
 				70A827A1184CBF3A0027B826 /* ViewController.m in Sources */,
 				70A8279B184CBF3A0027B826 /* AppDelegate.m in Sources */,
+				70A827C3184D1F7F0027B826 /* MyStoryboardLink.m in Sources */,
 				70A82797184CBF3A0027B826 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +426,7 @@
 		};
 		70A827BA184CBF3A0027B826 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62BE6E239DF46738A902A33 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -388,6 +440,7 @@
 		};
 		70A827BB184CBF3A0027B826 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62BE6E239DF46738A902A33 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -460,6 +513,7 @@
 				70A827BB184CBF3A0027B826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70A827BC184CBF3A0027B826 /* Build configuration list for PBXNativeTarget "StoryBoardLinkingWithRevealControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +522,7 @@
 				70A827BE184CBF3A0027B826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

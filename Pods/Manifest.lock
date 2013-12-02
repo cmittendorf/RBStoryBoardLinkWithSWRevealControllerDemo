@@ -1,0 +1,13 @@
+PODS:
+  - RBStoryboardLink (0.0.6)
+  - SWRevealViewController (1.0.8)
+
+DEPENDENCIES:
+  - RBStoryboardLink (~> 0.0.6)
+  - SWRevealViewController (~> 1.0.8)
+
+SPEC CHECKSUMS:
+  RBStoryboardLink: 8a206a1f94f9d0771ea90e5b2dfeaa52c8642867
+  SWRevealViewController: 5688d9d017e228c9edd92db359f670d8c47ab8e6
+
+COCOAPODS: 0.28.0
