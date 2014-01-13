@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7089A5A8184DC5DD00827C39 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7089A5A7184DC5DD00827C39 /* MenuViewController.m */; };
 		7089A5AA184DC79100827C39 /* icn_burger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7089A5A9184DC79100827C39 /* icn_burger@2x.png */; };
-		7089A5AC184DC8DA00827C39 /* MyContentOrig.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7089A5AB184DC8DA00827C39 /* MyContentOrig.storyboard */; };
 		70A8278B184CBF3A0027B826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A8278A184CBF3A0027B826 /* Foundation.framework */; };
 		70A8278D184CBF3A0027B826 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A8278C184CBF3A0027B826 /* CoreGraphics.framework */; };
 		70A8278F184CBF3A0027B826 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A8278E184CBF3A0027B826 /* UIKit.framework */; };
@@ -23,7 +22,7 @@
 		70A827AB184CBF3A0027B826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A8278A184CBF3A0027B826 /* Foundation.framework */; };
 		70A827AC184CBF3A0027B826 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A8278E184CBF3A0027B826 /* UIKit.framework */; };
 		70A827C0184CC1190027B826 /* MyContent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A827BF184CC1190027B826 /* MyContent.storyboard */; };
-		70A827C3184D1F7F0027B826 /* MyStoryboardLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A827C2184D1F7F0027B826 /* MyStoryboardLink.m */; };
+		70DD809F18841E9700A36304 /* UINavigationController+RBStoryboardLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DD809E18841E9700A36304 /* UINavigationController+RBStoryboardLink.m */; };
 		CCCBF69B57C4441882B2CF66 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8495571FE845D2B3EE13C3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +41,6 @@
 		7089A5A6184DC5DD00827C39 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		7089A5A7184DC5DD00827C39 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		7089A5A9184DC79100827C39 /* icn_burger@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_burger@2x.png"; sourceTree = "<group>"; };
-		7089A5AB184DC8DA00827C39 /* MyContentOrig.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyContentOrig.storyboard; sourceTree = "<group>"; };
 		70A82787184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryBoardLinkingWithRevealControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A8278A184CBF3A0027B826 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		70A8278C184CBF3A0027B826 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,8 +58,8 @@
 		70A827A8184CBF3A0027B826 /* StoryBoardLinkingWithRevealControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryBoardLinkingWithRevealControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A827A9184CBF3A0027B826 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		70A827BF184CC1190027B826 /* MyContent.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyContent.storyboard; sourceTree = "<group>"; };
-		70A827C1184D1F7F0027B826 /* MyStoryboardLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStoryboardLink.h; sourceTree = "<group>"; };
-		70A827C2184D1F7F0027B826 /* MyStoryboardLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStoryboardLink.m; sourceTree = "<group>"; };
+		70DD809D18841E9700A36304 /* UINavigationController+RBStoryboardLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+RBStoryboardLink.h"; sourceTree = "<group>"; };
+		70DD809E18841E9700A36304 /* UINavigationController+RBStoryboardLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+RBStoryboardLink.m"; sourceTree = "<group>"; };
 		C62BE6E239DF46738A902A33 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,15 +124,14 @@
 			children = (
 				70A82799184CBF3A0027B826 /* AppDelegate.h */,
 				70A8279A184CBF3A0027B826 /* AppDelegate.m */,
-				70A827C1184D1F7F0027B826 /* MyStoryboardLink.h */,
-				70A827C2184D1F7F0027B826 /* MyStoryboardLink.m */,
 				70A8279C184CBF3A0027B826 /* Main.storyboard */,
 				70A827BF184CC1190027B826 /* MyContent.storyboard */,
-				7089A5AB184DC8DA00827C39 /* MyContentOrig.storyboard */,
 				70A8279F184CBF3A0027B826 /* ViewController.h */,
 				70A827A0184CBF3A0027B826 /* ViewController.m */,
 				7089A5A6184DC5DD00827C39 /* MenuViewController.h */,
 				7089A5A7184DC5DD00827C39 /* MenuViewController.m */,
+				70DD809D18841E9700A36304 /* UINavigationController+RBStoryboardLink.h */,
+				70DD809E18841E9700A36304 /* UINavigationController+RBStoryboardLink.m */,
 				70A827A2184CBF3A0027B826 /* Images.xcassets */,
 				70A82791184CBF3A0027B826 /* Supporting Files */,
 			);
@@ -234,7 +231,6 @@
 				7089A5AA184DC79100827C39 /* icn_burger@2x.png in Resources */,
 				70A827C0184CC1190027B826 /* MyContent.storyboard in Resources */,
 				70A827A3184CBF3A0027B826 /* Images.xcassets in Resources */,
-				7089A5AC184DC8DA00827C39 /* MyContentOrig.storyboard in Resources */,
 				70A82795184CBF3A0027B826 /* InfoPlist.strings in Resources */,
 				70A8279E184CBF3A0027B826 /* Main.storyboard in Resources */,
 			);
@@ -289,7 +285,7 @@
 			files = (
 				70A827A1184CBF3A0027B826 /* ViewController.m in Sources */,
 				70A8279B184CBF3A0027B826 /* AppDelegate.m in Sources */,
-				70A827C3184D1F7F0027B826 /* MyStoryboardLink.m in Sources */,
+				70DD809F18841E9700A36304 /* UINavigationController+RBStoryboardLink.m in Sources */,
 				70A82797184CBF3A0027B826 /* main.m in Sources */,
 				7089A5A8184DC5DD00827C39 /* MenuViewController.m in Sources */,
 			);

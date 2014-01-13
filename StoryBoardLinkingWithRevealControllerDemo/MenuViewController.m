@@ -8,6 +8,7 @@
 
 #import "MenuViewController.h"
 
+#import <RBStoryboardLink/RBStoryboardLink.h>
 #import <SWRevealViewController/SWRevealViewController.h>
 
 @interface MenuViewController ()
@@ -19,7 +20,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
 }
 
 - (void)didReceiveMemoryWarning
@@ -33,16 +33,27 @@
     UIViewController *vc = nil;
     switch (indexPath.row) {
         case 0:
-            vc = [self.storyboard instantiateViewControllerWithIdentifier:@"withAdjustments"];
+            vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Menu Item 1"];
             break;
         case 1:
-            vc = [self.storyboard instantiateViewControllerWithIdentifier:@"withoutAdjustments"];
+            vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Menu Item 1"];
+            break;
+        case 2:
+            vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Menu Item 1"];
             break;
         default:
             break;
     }
 
     if (vc) {
+        if ([vc isKindOfClass:[RBStoryboardLink class]]) {
+            UIViewController *topViewController = [(RBStoryboardLink *)vc scene];
+            if ([topViewController isKindOfClass:[UINavigationController class]]) {
+                topViewController = [(UINavigationController *)vc topViewController];
+                topViewController.title = [NSString stringWithFormat:@"Menu Item %ld", (long)indexPath.row + 1];
+            }
+        }
+
         [self.revealViewController setFrontViewController:vc animated:YES];
     }
 }

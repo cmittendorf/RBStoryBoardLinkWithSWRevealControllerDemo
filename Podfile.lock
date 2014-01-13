@@ -3,11 +3,16 @@ PODS:
   - SWRevealViewController (1.0.8)
 
 DEPENDENCIES:
-  - RBStoryboardLink (~> 0.0.6)
+  - RBStoryboardLink (from `git@github.com:cmittendorf/RBStoryboardLink.git`, branch `patch-1`)
   - SWRevealViewController (~> 1.0.8)
 
+EXTERNAL SOURCES:
+  RBStoryboardLink:
+    :branch: patch-1
+    :git: git@github.com:cmittendorf/RBStoryboardLink.git
+
 SPEC CHECKSUMS:
-  RBStoryboardLink: 8a206a1f94f9d0771ea90e5b2dfeaa52c8642867
+  RBStoryboardLink: 8856248bf3a37159a89b3b8a49ceeb8eb111e01d
   SWRevealViewController: 5688d9d017e228c9edd92db359f670d8c47ab8e6
 
 COCOAPODS: 0.28.0
